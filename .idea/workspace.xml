@@ -7,10 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2af50a9f-eb94-4d96-90ad-d93e6cffcd53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonAgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonAllValuesComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonLastNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonNameComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/Persons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/Persons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/Persons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/Persons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/Persons.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +114,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.18664047" />
           <treeState>
             <expand>
               <path>
@@ -132,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597960260965</updated>
-      <workItem from="1597960265254" duration="12315000" />
+      <workItem from="1597960265254" duration="16119000" />
     </task>
     <servers />
   </component>
@@ -189,10 +197,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597962142575" />
-    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1598029282209">
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1598031005713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598029282209" />
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598031005713" />
     <state x="430" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1597960462782">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -201,6 +209,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012602811" />
+    <state width="421" height="438" key="DebuggerActiveHint" timestamp="1598032759655">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="421" height="438" key="DebuggerActiveHint/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598032759655" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1598015677405">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -209,22 +221,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="667" y="322" key="Github.ShareDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012727443" />
-    <state width="1068" height="218" key="GridCell.Tab.0.bottom" timestamp="1598029398955">
+    <state width="1241" height="218" key="GridCell.Tab.0.bottom" timestamp="1598033070581">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598029398955" />
-    <state width="1068" height="218" key="GridCell.Tab.0.center" timestamp="1598029398955">
+    <state width="1241" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
+    <state width="1241" height="218" key="GridCell.Tab.0.center" timestamp="1598033070581">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.center/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598029398955" />
-    <state width="1068" height="218" key="GridCell.Tab.0.left" timestamp="1598029398954">
+    <state width="1241" height="218" key="GridCell.Tab.0.center/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
+    <state width="1241" height="218" key="GridCell.Tab.0.left" timestamp="1598033070581">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.left/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598029398954" />
-    <state width="1068" height="218" key="GridCell.Tab.0.right" timestamp="1598029398955">
+    <state width="1241" height="218" key="GridCell.Tab.0.left/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
+    <state width="1241" height="218" key="GridCell.Tab.0.right" timestamp="1598033070581">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.right/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598029398955" />
+    <state width="1241" height="218" key="GridCell.Tab.0.right/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
+    <state width="1241" height="218" key="GridCell.Tab.1.bottom" timestamp="1598033070465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1241" height="218" key="GridCell.Tab.1.bottom/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070465" />
+    <state width="1241" height="218" key="GridCell.Tab.1.center" timestamp="1598033070464">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1241" height="218" key="GridCell.Tab.1.center/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070464" />
+    <state width="1241" height="218" key="GridCell.Tab.1.left" timestamp="1598033070464">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1241" height="218" key="GridCell.Tab.1.left/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070464" />
+    <state width="1241" height="218" key="GridCell.Tab.1.right" timestamp="1598033070465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1241" height="218" key="GridCell.Tab.1.right/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070465" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1598012653721">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -233,5 +261,25 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012620696" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1598031618587">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598031618587" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rest/Persons.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rest/Persons.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

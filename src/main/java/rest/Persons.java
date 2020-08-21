@@ -1,12 +1,15 @@
 package rest;
 
 import model.Person;
+import model.comparator.PersonAllValuesComparator;
+import model.comparator.PersonNameComparator;
 
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 @RequestScoped
@@ -25,13 +28,19 @@ public class Persons
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public List<Person> getAll(@QueryParam("orderby") String order)
+    public List<Person> getAll(@QueryParam("sortby") String sort, @QueryParam("orderby") String order)
     {
-        if ("asc".equals(order))
-            allPerson.sort((a,b) -> a.compareTo(b));
-        else if ("desc".equals(order))
-            allPerson.sort((a,b) -> b.compareTo(a));
+        if ("all".equals(sort) && "asc".equals(order))
+            Collections.sort(allPerson, new PersonAllValuesComparator());
 
+        else if ("all".equals(sort) && "desc".equals(order))
+            Collections.sort(allPerson, new PersonAllValuesComparator().reversed());
+
+        else if ("name".equals(sort) && "asc".equals(order))
+            Collections.sort(allPerson, new PersonNameComparator());
+
+        else if ("name".equals(sort) && "desc".equals(order))
+            Collections.sort(allPerson, new PersonNameComparator().reversed());
         return allPerson;
     }
 

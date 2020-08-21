@@ -2,7 +2,7 @@ package model;
 
 import java.util.Objects;
 
-public class Person implements Comparable<Person>
+public class Person
 {
     private String firstName;
     private String lastName;
@@ -54,23 +54,6 @@ public class Person implements Comparable<Person>
     public int hashCode()
     {
         return Objects.hash(firstName, lastName, pesel, age);
-    }
-
-    @Override
-    public int compareTo(Person o)
-    {
-        int result = this.firstName.compareTo(o.firstName);
-        if (result == 0)
-        {
-            result = this.lastName.compareTo(o.lastName);
-            if (result == 0)
-            {
-                result = o.age - this.age;
-                return result;
-            }
-            return result;
-        }
-        return result;
     }
 
     @Override
