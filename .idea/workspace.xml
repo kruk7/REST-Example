@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2af50a9f-eb94-4d96-90ad-d93e6cffcd53" name="Default Changelist" comment="" />
+    <list default="true" id="2af50a9f-eb94-4d96-90ad-d93e6cffcd53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/Persons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/Persons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/Persons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/Persons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/Persons.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +26,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1gNg2vqlrBGs4FCFlqXmBQoGTg7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -121,12 +134,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597960260965</updated>
-      <workItem from="1597960265254" duration="4612000" />
+      <workItem from="1597960265254" duration="8845000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#Project_Structure" timestamp="1597960914050">
@@ -141,21 +195,41 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="430" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597960462782" />
-    <state width="1068" height="218" key="GridCell.Tab.0.bottom" timestamp="1597961089005">
+    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1598012602811">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597961089005" />
-    <state width="1068" height="218" key="GridCell.Tab.0.center" timestamp="1597961089005">
+    <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012602811" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1598015677405">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.center/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597961089005" />
-    <state width="1068" height="218" key="GridCell.Tab.0.left" timestamp="1597961089005">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598015677405" />
+    <state x="667" y="322" key="Github.ShareDialog" timestamp="1598012727443">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.left/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597961089005" />
-    <state width="1068" height="218" key="GridCell.Tab.0.right" timestamp="1597961089005">
+    <state x="667" y="322" key="Github.ShareDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012727443" />
+    <state width="1068" height="218" key="GridCell.Tab.0.bottom" timestamp="1598016465743">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1068" height="218" key="GridCell.Tab.0.right/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597961089005" />
+    <state width="1068" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598016465743" />
+    <state width="1068" height="218" key="GridCell.Tab.0.center" timestamp="1598016465743">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1068" height="218" key="GridCell.Tab.0.center/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598016465743" />
+    <state width="1068" height="218" key="GridCell.Tab.0.left" timestamp="1598016465742">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1068" height="218" key="GridCell.Tab.0.left/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598016465742" />
+    <state width="1068" height="218" key="GridCell.Tab.0.right" timestamp="1598016465743">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1068" height="218" key="GridCell.Tab.0.right/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598016465743" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1598012653721">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012653721" />
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598012620696">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012620696" />
   </component>
 </project>
