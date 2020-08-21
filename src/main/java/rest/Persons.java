@@ -1,5 +1,7 @@
 package rest;
 
+import model.Person;
+
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -11,18 +13,19 @@ import java.util.List;
 @Path("/person")
 public class Persons
 {
-    List<String> allPerson = new ArrayList<>(
+    List<Person> allPerson = new ArrayList<>(
             Arrays.asList(
-                    "Person 2",
-                    "Person 3",
-                    "Person 5",
-                    "Person 1"
+                    new Person("Stanisław", "Staśkiewicz", "90893445653", 23),
+                    new Person("Leszek", "Lechowicz", "65763467876", 23),
+                    new Person("Zenon", "Zenkiewicz", "88452345623", 23),
+                    new Person("Miczysław", "Mietczyński", "87432385274", 23),
+                    new Person("Franciszek", "Frankowski", "77347237837", 23)
             )
     );
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public List<String> getAll(@QueryParam("orderby") String order)
+    public List<Person> getAll(@QueryParam("orderby") String order)
     {
         if ("asc".equals(order))
             allPerson.sort((a,b) -> a.compareTo(b));
@@ -34,7 +37,7 @@ public class Persons
 
     @GET
     @Path("/{id}")
-    public String getPerson(@PathParam("id") long id)
+    public Person getPerson(@PathParam("id") @DefaultValue("1") long id)
     {
         return allPerson.get((int)id);
     }
