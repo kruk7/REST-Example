@@ -7,17 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2af50a9f-eb94-4d96-90ad-d93e6cffcd53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonAgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonAllValuesComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonLastNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/PersonNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controler/UserControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/endpoint/BookEndpint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/PersonDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REST-Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/REST-Example.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/Persons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/Persons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/HelloEndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/Persons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/PropertiesEndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/WEB-INF/classes/rest/RestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/REST_Example/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/REST_Example/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/Persons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/Persons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/Persons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/HelloEndPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/endpoint/PersonEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/PropertiesEndPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/RestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/HelloEndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/Persons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/PropertiesEndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/RestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -47,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -140,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597960260965</updated>
-      <workItem from="1597960265254" duration="16119000" />
+      <workItem from="1597960265254" duration="38617000" />
     </task>
     <servers />
   </component>
@@ -189,22 +206,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="87" key="#Project_Structure" timestamp="1597960914050">
+    <state x="392" y="87" key="#Assign_Data_Sources" timestamp="1598284541227">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="87" key="#Project_Structure/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597960914050" />
+    <state x="392" y="87" key="#Assign_Data_Sources/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598284541227" />
+    <state x="392" y="87" key="#Project_Structure" timestamp="1598283758823">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#Project_Structure/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598283758823" />
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597962142575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597962142575" />
-    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1598031005713">
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1598295585334">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598031005713" />
-    <state x="430" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1597960462782">
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598295585334" />
+    <state x="430" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598285798991">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="430" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1597960462782" />
+    <state x="430" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598285798991" />
     <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1598012602811">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -221,22 +242,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="667" y="322" key="Github.ShareDialog/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012727443" />
-    <state width="1241" height="218" key="GridCell.Tab.0.bottom" timestamp="1598033070581">
+    <state width="1241" height="218" key="GridCell.Tab.0.bottom" timestamp="1598294178609">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1241" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
-    <state width="1241" height="218" key="GridCell.Tab.0.center" timestamp="1598033070581">
+    <state width="1241" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598294178609" />
+    <state width="1241" height="218" key="GridCell.Tab.0.center" timestamp="1598294178609">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1241" height="218" key="GridCell.Tab.0.center/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
-    <state width="1241" height="218" key="GridCell.Tab.0.left" timestamp="1598033070581">
+    <state width="1241" height="218" key="GridCell.Tab.0.center/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598294178609" />
+    <state width="1241" height="218" key="GridCell.Tab.0.left" timestamp="1598294178609">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1241" height="218" key="GridCell.Tab.0.left/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
-    <state width="1241" height="218" key="GridCell.Tab.0.right" timestamp="1598033070581">
+    <state width="1241" height="218" key="GridCell.Tab.0.left/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598294178609" />
+    <state width="1241" height="218" key="GridCell.Tab.0.right" timestamp="1598294178609">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1241" height="218" key="GridCell.Tab.0.right/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598033070581" />
+    <state width="1241" height="218" key="GridCell.Tab.0.right/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598294178609" />
     <state width="1241" height="218" key="GridCell.Tab.1.bottom" timestamp="1598033070465">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -257,29 +278,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012653721" />
-    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598012620696">
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598268817132">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598012620696" />
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598268817132" />
+    <state x="182" y="124" key="new project wizard" timestamp="1598045412578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="124" key="new project wizard/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598045412578" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1598031618587">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/94.-1024.1280.1024@0.0.1600.860" timestamp="1598031618587" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/rest/Persons.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/rest/Persons.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
